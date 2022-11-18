@@ -1,0 +1,138 @@
+/* geral*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+    font-family: helvetica;
+    
+    border:none;
+}   
+
+img{
+    margin-left: 47%;
+    
+
+}
+
+header{
+    height: 0.2vh;
+    display: flex;
+    justify-content:space-between;
+    background-color: white;
+    box-shadow: black;
+    margin-top: 1.0%;
+
+}
+
+
+body{
+    background-color: #041833;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+a{
+    font-size: .8rem;
+}
+
+a:hover {
+
+    color: blue
+}
+
+/*container login*/
+
+#login-container {
+
+    background-color:  white;
+    width: 400px;
+    margin-left:auto;
+    margin-right: auto;
+    padding: 20px 20px;
+    margin-top: 18vh;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 16vh;
+     
+}
+
+/*formulario*/
+
+form{
+    
+    
+    margin-top: 4px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+label, input{
+
+    display: block;
+    width: 100%;
+    text-align:left;
+
+}
+
+label {
+font-weight: bold ;
+
+}
+
+input{
+
+    border: 2px solid #323232;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 26px;
+
+}
+
+input:focus{
+    border-bottom: 2px solid blue
+
+
+}
+
+
+
+
+.btn{
+    padding: 10px  10px;
+    width: 65px;
+    color: white;
+    background: black;
+    border: 1px solid;
+    border-radius: 5px;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+    display: flex;
+    
+    align-items: center;
+}
+
+.btn:hover {
+    background: rgb(77, 0, 128);
+    transition: background 0.5s;
+    
+
+}   
+
+.obs{
+    border: 2px solid #323232;
+    padding: 8px;
+    font-size: 100%;
+    margin-bottom: 26px;
+    margin-left: center;
+}
+    
+    
